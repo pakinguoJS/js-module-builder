@@ -17,12 +17,14 @@ function jsduck(src, dst) {
         cmd = cmd.replace('{src}', process.cwd().replace(/\\/g, '/')).replace('{dst}', src);
     }else{
         var cwd = process.cwd().replace(/\\/g, '/');
-        cmd = cmd.replace('{src}', cwd).replace('{dst}', cwd + '-jsduck-dist');
+        cmd = cmd.replace('{src}', cwd).replace('{dst}', cwd + '-jsdoc-dist');
     }
 
     require('child_process').exec(cmd, function (err, stdout, stderr) {
         if (err !== null) {
             console.log(err);
+        } else if (stderr !== null) {
+            process.stdout.write(stderr);
         } else {
             console.log(stdout);
         }
