@@ -1,0 +1,95 @@
+.open-app-container{
+    position: relative;
+    top: 0;
+    min-height: 62px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+.open-app-container *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.open-app-wrap{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+}
+
+.open-app{
+    position: relative;
+    width: 100%;
+    padding: 6px;
+    background: url('../img/open-app-bg.png');
+    background-size: 100% 100%;
+    background-position: center;
+    display: table;
+}
+
+.open-app-close{
+    display: table-cell;
+    width: 20px;
+    padding: 0 2px;
+    text-align: center;
+    vertical-align: middle;
+}
+.open-app-close span{
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url('../img/open-app-close.png');
+    background-size: 100% 100%;
+}
+
+.open-app-icon{
+    display: table-cell;
+    width: 50px;
+    height: 50px;
+    padding: 0 4px 0 6px;
+    vertical-align: middle;
+}
+.open-app-icon img{
+    width: 100%;
+    display: block;
+}
+
+.open-app-wording{
+    display: table-cell;
+    padding: 0 6px;
+    color: #fff;
+    vertical-align: middle;
+}
+.open-app-wording p{
+    font-size: .875em;
+    line-height: 1.25em;
+}
+.open-app-wording p.en{
+    font-size: .725em;
+}
+
+.open-app-download{
+    display: table-cell;
+    width: 60px;
+    padding-right: 4px;
+    vertical-align: middle;
+}
+.open-app-download a{
+    display: inline-block;
+    min-width: 100%;
+    font-size: .875em;
+    padding: 4px 0;
+    text-align: center;
+    color: #3ab600;
+    border: 1px solid #3ab600;
+    border-radius: 15px;
+    line-height: 1em;
+    text-decoration: none;
+}
+.open-app-download a:active{
+    border-color: rgba(255,255,255,.5);
+    color: rgba(255,255,255,.5);
+}

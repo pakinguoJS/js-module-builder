@@ -45,4 +45,9 @@ Temporary Items
 
 # node_modules
 # =========================
-node_modules/*
+node_modules/chokidar/*
+node_modules/colors/*
+node_modules/grunt/*
+node_modules/md5/*
+
+node_modules/jsmb*/node_modules/*
