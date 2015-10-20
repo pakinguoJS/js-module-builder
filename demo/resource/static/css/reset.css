@@ -1,1 +1,45 @@
-@charset 'utf-8';blockquote,body,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,input,li,ol,p,pre,td,textarea,th,ul{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}abbr,acronym,fieldset,img{border:0}address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:400}ol,ul{list-style:none}caption,th{text-align:left}#article-name,.article-info{text-align:center}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:400}q:after,q:before{content:''}.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;overflow:hidden}*{font-family:Hiragino Kaku Gothic ProN,'微软雅黑';-webkit-tap-highlight-color:rgba(255,0,0,0)}html{font-size:75%}body{background-color:#F0F2F2;font-size:1em}.page-bizinfo,.page-content{margin:auto 1.2em;font-size:1.33333em}.page-content p{color:#222;margin:.4em 0;text-indent:2em}.page-content img{width:100%;display:block}.page-content li{list-style-position:inside}.page-content .text{color:#3b3b3b}#restaurant-info{background:url(../img/icon_arrow.png) 96% 50% no-repeat #e4e6e5;background-size:1.5em;margin-bottom:1.25em;padding:.4em 0 .2em .4em}.rest-desc,.rest-logo{display:inline-block}.rest-logo{width:20%;vertical-align:top}.rest-desc{width:65%}.round_photo{-moz-border-radius:4em;-webkit-border-radius:4em;border-radius:4em}.rest-logo .round_photo{width:3.6em;height:3.6em}.article-author .round_photo{width:3em;height:3em}.rest-desc .rest-title{color:#222;width:100%;max-height:2em;line-height:1em;overflow:hidden}.rest-desc .rest-tags{color:#737373;font-size:.923em;padding:0;line-height:100%;margin:.3em auto}.rest-desc .rest-tags li{display:inline-block;border-right:solid 1px #737373;padding-right:.4em;height:1em;line-height:1em}.rest-desc .rest-tags li:last-child{border:none;padding:0}.rest-desc .rest-nums{font-size:.923em;padding:0;line-height:100%}.rest-desc .rest-nums li{display:inline-block;height:1em;line-height:1em;margin-right:.3em;color:#b3b3b3}.rest-desc .rest-nums .rating{color:#3ab600;font-weight:700}.rest-desc .rest-nums .favoritenum{background:url(../img/like.png) 100% 50% no-repeat;background-size:1em;padding-right:1em}.rest-desc .rest-nums .commentnum{background:url(../img/pinglun.png) 100% 50% no-repeat;background-size:1em;padding-right:1em}#article-name{color:#222;font-size:1.333em;margin:.25em auto}.article-author{color:#737373;border-top:solid 1px #B3B3B3;margin:.5em 2.5em;padding:0}.like-num,.pv-num{display:inline-block;padding-left:2em}.article-author img{margin-left:.5em;display:inline-block;vertical-align:middle}.article-author span{margin-right:.5em;display:inline-block}.page-toolbar{margin:1em auto}.clearfix{clear:both}.article-more-info,.article-tags{color:#b3b3b3;line-height:1.5em;box-sizing:border-box}.like-num{background:url(../img/good.png) 0 50% no-repeat;background-size:2em}.pv-num{background:url(../img/pageview.png) 0 50% no-repeat;background-size:2em}.article-actions{text-align:right;color:#b3b3b3;padding:1em 0}.article-nums{text-align:right;font-size:.9em;padding-bottom:1em}.article-nums .like-num{margin-right:1em}.article-hr{height:0;border:none;border-bottom:1px solid #d8d8d8}.article-likes .article-likes-arrow{position:absolute;top:-10px;left:20px;width:0;height:0;border:10px solid transparent;border-color:transparent transparent #f8f8f8;border-top:0}.article-likes h3{margin-bottom:12px;font-size:1.1em;color:#000}.article-likes-list{position:relative}.article-likes-list ul{position:relative;padding:8px 4% 4px;background-color:#f8f8f8;box-sizing:border-box;text-align:center}.article-likes-list ul li{float:left;margin:0 0 4px 1.75%;width:12.5%;border-radius:50%;overflow:hidden}.article-likes-list ul li img{display:block;width:100%;border-radius:50%}.article-actions div,.article-actions span{vertical-align:middle;display:inline-block}.article-actions .yes-like{background:url(../img/like_yes.png) 50% 0 no-repeat}.article-actions .no-like{background:url(../img/like_no.png) 50% 0 no-repeat}.article-actions .yes-bookmark{background:url(../img/bookmark_yes.png) 50% 0 no-repeat}.article-actions .no-bookmark{background:url(../img/bookmark_no.png) 50% 0 no-repeat}.article-actions .action-button{display:inline-block;text-align:center;height:2.8em;width:3em;background-size:3em;-webkit-tap-highlight-color:transparent}.open-ipick{font-size:1.2em;padding-top:.556em;border-top:dashed .056em #b5b5b5}.i_download{display:block;width:100%;margin:.278em 0 .556em;text-align:center;text-decoration:none}.i_download>span,.i_icon_download,.i_icon_go{display:inline-block;vertical-align:middle}.i_download>span{color:#007aff}.i_icon_download{width:3em;height:3em;background:url(../img/download.png);background-size:3em;border:.056em solid #b7b7b7;border-radius:.6em;margin-right:.278em}.i_icon_go{height:1.5em;width:1.5em;background:url(../img/go.png);background-size:1.5em}
+/*
+    Document   : common
+    Created on : 2013-5-15, 15:58:58
+    Author     : pakinguo
+    Description:
+        Purpose of the stylesheet follows.
+*/
+@charset 'utf-8';
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+	margin:0;
+	padding:0;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,img {
+	border:0;
+}
+address,caption,cite,code,dfn,em,th,var {
+	font-style:normal;
+	font-weight:normal;
+}
+ol,ul {
+	list-style:none;
+}
+caption,th {
+	text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+q:before,q:after {
+	content:'';
+}
+abbr,acronym { border:0;
+}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;overflow:hidden;}
+
+
+*{
+    font-family: Hiragino Kaku Gothic ProN, '微软雅黑';
+    -webkit-tap-highlight-color:rgba(255,0,0,0);
+}

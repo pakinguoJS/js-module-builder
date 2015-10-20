@@ -1,3 +1,4 @@
 define(function(require, module, exports){
-    console.log('test');
+    require('./alert.js');
+    require.async(['./a.js', './b.js'], function(a, b){})
 })
