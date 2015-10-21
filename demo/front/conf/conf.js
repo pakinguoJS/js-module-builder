@@ -7,7 +7,9 @@
         vars: {
             'lang': 'app'
         },
-        alias: '',
+        alias: {
+            "index": "{lang}/test/js/index.js"
+        },
         debug: false
     });
 
