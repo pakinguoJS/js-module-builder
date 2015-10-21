@@ -1,3 +1,3 @@
-define("app/test/js/a", [], function(require, module, exports) {
-    console.log("a");
-});
+define(function(require, module, exports){
+    console.log('a');
+})

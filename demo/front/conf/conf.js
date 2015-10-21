@@ -11,5 +11,9 @@
         debug: false
     });
 
+    seacss.config({
+        base: base
+    });
+
 })(seajs);
 
