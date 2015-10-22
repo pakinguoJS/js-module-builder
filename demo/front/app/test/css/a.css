@@ -1,4 +1,21 @@
 .test{
     width: 100px;
+    height: 100px;
     color: #0f0;
+
+    background: url( ../../../static/img/001.jpg );
+    background-size: cover;
 }
+
+.b{
+    background-image: url(../../../static/img/001.jpg);
+}
+
+.c{
+    background-image: url("../../../static/img/001.jpg");
+}
+
+.d{
+    background-image: url('../../../static/img/001.jpg');
+}
+
