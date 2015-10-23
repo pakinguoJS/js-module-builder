@@ -38,27 +38,7 @@ jsmb.set = function(key, val){
 
 
 jsmb.config = {
-    "base": "./",
-    "src": "./",
-    "dest": "./resource",
-    "view": "./views",
-    "version": "time",
-    "i18n": {},
-    "realtimeI18n": {},
-    "transport": {},
-    "uglifyjs": [
-        {
-            "cwd": "",
-            "dst": "",
-            "src": []
-        }
-    ],
-    "minifycss": [
-        {
-            "cwd": "",
-            
-        }
-    ]
+
 }
 
 

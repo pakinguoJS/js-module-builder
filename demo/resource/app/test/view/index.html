@@ -3,19 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>test</title>
-    <link rel="stylesheet" type="text/css" href="{$BASE}app/test/css/a.css?1445567018695" />
-    <link rel="stylesheet" type="text/css" href="../css/b.css?1445415147578" />
+    <link rel="stylesheet" type="text/css" href="{$BASE}app/test/css/a.css" />
+    <link rel="stylesheet" type="text/css" href="../css/b.css" />
     <script src="/pakinguo/demo/resource/lib/seajs/sea.js"></script>
     <script src="/pakinguo/demo/resource/lib/seacss/seacss.js"></script>
     <script src="/pakinguo/demo/resource/conf/conf.js"></script>
 </head>
 <body>
 <div class="test">test</div>
-<div class="test1">test __("str_name")</div>
-<img src="../../../static/img/001.jpg?1442544117689">
+<div class="test1">test sfdgsdfg</div>
+
+
+
+<img src="../../../static/img/001.jpg">
 <script type="text/javascript">
-    seajs.config({map:[["app/test/js/index.js","app/test/js/index.js?1445505023793"],["app/test/js/alert.js","app/test/js/alert.js?1445505023792"],["app/md1/js/md1.index.js","app/md1/js/md1.index.js?1445505023788"],["app/md1/js/md2.js","app/md1/js/md2.js?1445505023788"],["app/test/js/a.js","app/test/js/a.js?1445505023792"],["app/test/js/b.js","app/test/js/b.js?1445505023793"]]})
-    seacss.config({map:[["app/test/css/a.css","app/test/css/a.css?1445567018695"]]})
+    //@version cmd
+    //@version css
     seacss.use('app/test/css/a.css');
     seajs.use('index');
 </script>

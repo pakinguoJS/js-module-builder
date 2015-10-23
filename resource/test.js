@@ -33,9 +33,10 @@ var rs = [];
 
 
 // rt-sync.js 同步脚本测试
-//var cwd = process.cwd();
-//var rtSync = require('./rt-sync.js');
-//rtSync(cwd, path.join(path.dirname(cwd), 'resource'), path.join(path.dirname(cwd), 'views'));
+var cwd = process.cwd();
+var rtSync = require('./rt-sync.js');
+rtSync(cwd, path.join(path.dirname(cwd), 'resource'), path.join(path.dirname(cwd), 'views'));
+return;
 
 
 // transport 测试
@@ -123,9 +124,6 @@ var rs = [];
 
 
 // 翻译
-var i18nxml = require('../node_modules/jsmb-i18n/lib/i18n-xml.js');
-var src = "D:/Pakinguo_documents/My Github/js-module-builder/demo/front/app";
-var dist = "D:/Pakinguo_documents/My Github/js-module-builder/demo/resource/app";
-var dest = "D:/Pakinguo_documents/My Github/js-module-builder/demo/front/_build/i18n/";
-i18nxml.gettext('en', dest + "xml/en/all.xml", dist + '/test/view/index.html', dist + '/test/view/index.html');
-//i18nxml.xgettext(src, dest + "xml/en", dest + "xml/en/all.xml");
+var i18nxml = require('..node_modules/jsmb-i18n/lib/i18n-xml.js');
+i18nxml.gettext('en', dest + "xml/en/all.xml", src, dist);
+i18nxml.xgettext(src, dest + "en", dest + "xml/en/all.xml");
