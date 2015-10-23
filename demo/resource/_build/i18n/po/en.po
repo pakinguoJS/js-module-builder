@@ -17,5 +17,5 @@ msgstr ""
 
 #: index.html:13
 msgid "str_name"
-msgstr ""
+msgstr "asdfas"
 

@@ -3,19 +3,19 @@
     height: 100px;
     color: #0f0;
 
-    background: url( ../../../static/img/001.jpg );
+    background: url( ../../../static/img/001.jpg?1442544117689 );
     background-size: cover;
 }
 
 .b{
-    background-image: url(../../../static/img/001.jpg);
+    background-image: url(../../../static/img/001.jpg?1442544117689);
 }
 
 .c{
-    background-image: url("../../../static/img/001.jpg");
+    background-image: url("../../../static/img/001.jpg?1442544117689");
 }
 
 .d{
-    background-image: url('../../../static/img/001.jpg');
+    background-image: url('../../../static/img/001.jpg?1442544117689');
 }
 
