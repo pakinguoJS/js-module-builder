@@ -14,5 +14,7 @@ jsmg.set({
     		"src": []
     	}
     ],
-    "minifycss": true
+    "minifycss": [
+        
+    ]
 });
