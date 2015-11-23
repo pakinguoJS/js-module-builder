@@ -5,7 +5,7 @@
     seajs.config({
         base: base,
         vars: {
-            'lang': 'app'
+            'lang': 'src'
         },
         alias: {
             "index": "{lang}/test/js/index.js"

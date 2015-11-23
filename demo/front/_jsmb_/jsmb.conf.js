@@ -11,6 +11,7 @@ jsmb.set({
         }
     },
     "i18n": {
+        src: "D:/Pakinguo_documents/My Github/js-module-builder/demo/resource",
         type: "xml",
         destDir: "D:/Pakinguo_documents/My Github/js-module-builder/demo/front/_build/i18n",
         langList: {
@@ -38,9 +39,9 @@ jsmb.set({
     "uglifyjs": [
         {
             "cwd": "", // 不填写则默认使用 dest 字段的值
-            "dest": "app/test/js/index.js",
+            "dest": "src/test/js/index.js",
             "src": [
-                "app/test/js/index.js", "app/test/js/alert.js", "app/test/js/a.js", "app/test/js/b.js", "app/md1/js/md1.index.js", "app/md1/js/md2.js"
+                "src/test/js/index.js", "src/test/js/alert.js", "src/test/js/a.js", "src/test/js/b.js", "src/md1/js/md1.index.js", "src/md1/js/md2.js"
             ]
         },
         {}

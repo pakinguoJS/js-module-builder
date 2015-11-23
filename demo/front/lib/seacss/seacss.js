@@ -96,7 +96,7 @@
                                 loadSrcLink(paths[i][n]);
                             }
                         }else{
-                            // 路径拼接为: app/xx1&xx2&xx3.css
+                            // 路径拼接为: src/xx1&xx2&xx3.css
                             loadSrcLink(seacss.combobase + paths[i].join('&') + '.css')
                         }
                     }
@@ -187,7 +187,7 @@
      * 加载css
      * @param   {object}    link    需要加载的css对象，其数据结构：
      * {
-    *      url: 'app/xxx/xxx.js',
+    *      url: 'src/xxx/xxx.js',
     *      attrs: {
     *          'media': '',
     *          'hreflang': 'utf-8',
