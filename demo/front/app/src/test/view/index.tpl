@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>test</title>
-    <!--<link rel="stylesheet" type="text/css" href="{$BASE}src/test/css/a.css" />-->
+    <!--<link rel="stylesheet" type="text/css" href="{$BASE}static/css/test/a.css" />-->
     <script src="/pakinguo/demo/resource/lib/seajs/sea.js"></script>
     <script src="/pakinguo/demo/resource/lib/seacss/seacss.js"></script>
     <script src="/pakinguo/demo/resource/conf/conf.js"></script>
+    <!-- <script src="{$BASE}conf/conf.js"></script> -->
 </head>
 <body>
 <div class="test">test</div>
