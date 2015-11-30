@@ -1,3 +1,3 @@
 define(function(require, module, exports){
-    console.log('md2 aa bb cc');
+    console.log('md2 aa bb cc aa');
 })
