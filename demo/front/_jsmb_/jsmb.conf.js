@@ -128,5 +128,14 @@ jsmb.set({
             "../views",
             "_jsmb_/rsync.time"
         ]
+    },
+
+    // 打包
+    "pack": {
+        src: [
+            "../resource",
+            "../views"
+        ],
+        destDir: "_jsmb_/pack"
     }
 })
