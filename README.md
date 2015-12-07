@@ -61,7 +61,6 @@ Step2：修改部署的文件夹下的bin/init.sh权限，使其可执行，执�
 
     jsmb doc [src] [distribution]
 > JS文档自动化生成，src指定自动化检索的源文件夹，distribution指定生成后的文档路径。
-(访问：http://ipick1.wechat.com/pakinguo/jsdoc/index.html 可看到效果)
 
 <br>
 <br>
