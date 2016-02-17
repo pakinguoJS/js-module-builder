@@ -1,0 +1,38 @@
+{
+  "name": "js-module-builder",
+  "version": "1.0.0",
+  "description": "cmd版的web前端集成编译工具",
+  "main": "lib/run.js",
+  "dependencies": {
+    "jsmb-i18n": "^1.0.0",
+    "jsmb-cmd-transport": "^0.0.0",
+    "jsmb-jsdoc": "^1.0.0",
+    "jsmb-minifycss": "^1.0.0",
+    "jsmb-uglifyjs": "^1.0.0",
+    "jsmb-sync": "^1.0.0",
+    "jsmb-tar": "^1.0.0",
+    "colors": "^1.1.2",
+    "jsmb-util": "^1.0.0",
+    "md5": "^2.0.0",
+    "grunt": "^0.4.5",
+    "chokidar": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pakinguoJS/js-module-builder.git"
+  },
+  "keywords": [
+    "jsmb",
+    "js-module-builder"
+  ],
+  "author": "pakinguo <pakinguo@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pakinguoJS/js-module-builder/issues"
+  },
+  "homepage": "https://github.com/pakinguoJS/js-module-builder#readme"
+}
